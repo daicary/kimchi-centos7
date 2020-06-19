@@ -1,6 +1,11 @@
 # kimchi-centos7.sh
 该脚本是实现一键搭建kimchi服务，适用版本centos7，其它版本脚本会持续更新...
 
+<h1>如何运行脚本？</h1>
+<pre>chmod +x kimchi-centos7.sh
+bash kimchi-centos7.sh
+</pre>
+
 
 <h1>脚本一键部署不成功？</h1>
 <p>如果安装不成功，可以根据下面步骤走一遍。</p>
