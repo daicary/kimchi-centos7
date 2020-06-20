@@ -13,7 +13,7 @@ bash kimchi-centos7.sh
 <h3>安装KVM包</h3>
 <pre>yum install -y qeum-kvm qemu-kvm-tools virt-manager libvirt virt-install </pre>
 
-下载websockify源
+<h3>下载websockify源</h3>
 <pre>yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm</pre>
 
 
@@ -42,3 +42,7 @@ systemctl enable libvirtd</pre>
 sudo firewall-cmd --add-port=8001/tcp --permanent
 sudo firewall-cmd --reload
 </pre>
+
+
+<h3>用法</h3>
+<pre>浏览器访问 https：//localhost:8001</pre>
